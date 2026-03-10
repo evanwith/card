@@ -1,3 +1,35 @@
-h1{
-    color: coral;
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-areas:
+    ". . . . . . . . . . . ."
+    ". . . . . . . . . . . ."
+    ". . . . . . . . . . . ."
+    ". . . . . . . . . . . ."
+    ". . . . . . . . . . . ."
+    ". . . . . . . . . . . .";
+  max-width: 1722px;
+  min-height: 1117px;
+  margin: 0 auto;
+}
+
+/* Grid Areas */
+.title { 
+    grid-area: a; 
+    }
+.open-curly { 
+    grid-area: b; 
+    }
+.image { 
+    grid-area: c; 
+    }
+.main { 
+    grid-area: d; 
+}
+.highlights { 
+    grid-area: e; 
+}
+.closing-curly { 
+    grid-area: f; 
 }
