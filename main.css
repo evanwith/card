@@ -1,4 +1,7 @@
-
+body{
+    background-image: url("SVG/download(1).png");
+    background-repeat: round;
+}
 .container {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
