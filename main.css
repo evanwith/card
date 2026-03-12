@@ -2,6 +2,12 @@ body{
     background-image: url("SVG/download(1).png");
     background-repeat: round;
 }
+.icon-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    image: url("Email\BW\.svg")
+}
+
 .container {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
