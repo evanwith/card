@@ -1,39 +1,44 @@
 body{
     background-image: url("SVG/download(1).png");
-    background-repeat: round;
+    background-repeat: cover;
 }
 
 .container {
   display: grid;
+   max-width: 1722px;
+  min-height: 1117px;
+    margin: 0 auto;
   grid-template-columns: repeat(12, 1fr);
   grid-template-areas:
-    ". . . . . . . . . . . ."
-    ". . . . . . . . . . . ."
-    ". . . . . . . . . . . ."
-    ". . . . . . . . . . . ."
-    ". . . . . . . . . . . ."
-    ". . . . . . . . . . . .";
-  max-width: 1722px;
-  min-height: 1117px;
-  margin: 0 auto;
+  
+    ". . a a a a a a a a . ."
+    ". . a a a a a a a a . ."
+    ". . a a a a a a a a . ."
+    ". b b b b b b b b b b ."
+    ". . c c . d d . e e . ."
+    ". . c c . d d . e e . .";
+    gap: 1.25rem;
 }
 
 /* Grid Areas */
-.title { 
+.NameBW { 
     grid-area: a; 
+    max-width: 1148px;
     }
-.open-curly { 
-    grid-area: b; 
-    }
-.image { 
-    grid-area: c; 
-    }
-.main { 
-    grid-area: d; 
+.lineBW {
+    grid-area: b;
 }
-.highlights { 
-    grid-area: e; 
+.TumblrBW{
+    grid-area: c;
+    max-width:100px;
 }
-.closing-curly { 
-    grid-area: f; 
+.EmailBW{
+    grid-area: d;
+}
+.WWWBW{
+    grid-area: e;
+    max-width: 175px;
+}
+#linedetail{
+    stroke-width: 3px;
 }
