@@ -24,20 +24,25 @@ body{
 .NameBW { 
     grid-area: a; 
     max-width: 1148px;
+    filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
     }
 .lineBW {
     grid-area: b;
+    filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
 }
 .TumblrBW{
     grid-area: c;
     max-width:100px;
+    filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
 }
 .EmailBW{
     grid-area: d;
+    filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
 }
 .WWWBW{
     grid-area: e;
     max-width: 175px;
+    filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
 }
 #linedetail{
     stroke-width: 3px;
