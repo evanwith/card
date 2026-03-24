@@ -1,6 +1,7 @@
 body{
     background-image: url("SVG/download(1).png");
-    background-repeat: cover;
+    background-repeat: fill;
+    background-size: cover;
 }
 
 .container {
