@@ -1,5 +1,5 @@
 ## Digital business card
-This was my first time using HTML and CSS in my Web Typography class. This was also my first time using CSS grids and SVGs.
+This was my first time using HTML and CSS in my Web Typography class. This was also my first time using CSS grids and SVGs. This is going to be a continuous work in progress as my skillset evolves and more websites are created for my artistic benefit.
 
 ## Process
-Physical sketches were created before creating a mock-up in Figma. Assets that were created in Figma were then turned into SVGs and uploaded into VS code. 
+Physical sketches were created before creating a mock-up in Figma. Assets that were created in Figma were then turned into SVGs and uploaded into VS code. I wanted to keep the design bright enough to draw attention, but minimialistic to avoid clutter. There is no in-site text, everything picture is an asset created in Figma and transferred into an SVG. While I do understand that this makes accessability an issue, I will add image alt text in the future. Along with that, added links to social medias and a finished portfolio site will be added in once those are ready for the public-eye. The branding of the site has been somethign in the works for quite some time, at least in terms of the name and logo. That has been how I've signed my artwork for the last several years, with the "E" stacked on top of the "W" with an elongated baseline connecting them. 
