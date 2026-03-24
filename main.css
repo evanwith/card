@@ -59,10 +59,6 @@ body{
   transition: fill 0.3s ease;
 }
 
-.GraphicDesigner:hover svg path {
-  fill: #FF6B6B; /* new color on hover */
-}
-
 .EmailBW svg path {
   fill: #E9A752; /* current color */
   transition: fill 0.3s ease;
