@@ -13,7 +13,7 @@ body{
   
     ". . a a a a a a a a . ."
     ". . a a a a a a a a . ."
-    ". . a a a a a a a a . ."
+    ". . . . . f f . . . . ."
     ". b b b b b b b b b b ."
     ". . c c . d d . e e . ."
     ". . c c . d d . e e . .";
@@ -26,6 +26,9 @@ body{
     max-width: 1148px;
     filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
     }
+.GraphicDesigner{
+    grid-area: f;
+}
 .lineBW {
     grid-area: b;
     filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
@@ -39,6 +42,10 @@ body{
     grid-area: d;
     filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
 }
+.EmailBW:hover{
+    transform: scale (1.1);
+    fill:darkred;
+}
 .WWWBW{
     grid-area: e;
     max-width: 175px;
@@ -46,4 +53,21 @@ body{
 }
 #linedetail{
     stroke-width: 3px;
+}
+.GraphicDesigner svg path {
+  fill: #E9A752; /* current color */
+  transition: fill 0.3s ease;
+}
+
+.GraphicDesigner:hover svg path {
+  fill: #FF6B6B; /* new color on hover */
+}
+
+.EmailBW svg path {
+  fill: #E9A752; /* current color */
+  transition: fill 0.3s ease;
+}
+
+.EmailBW:hover svg path {
+  fill: #FF6B6B; /* new color on hover */
 }
